@@ -1,4 +1,4 @@
 FROM golang
 
-RUN sudo apt-get update & sudo apt-get -f install & sudo apt-get install -y wget unzip curl
+RUN apt-get update & apt-get -f install & apt-get install -y wget unzip curl
 
