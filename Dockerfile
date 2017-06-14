@@ -1,4 +1,4 @@
-FROM golang
+FROM ubuntu:17.04
 
 RUN apt-get update && \
 	apt-get -f install && \
